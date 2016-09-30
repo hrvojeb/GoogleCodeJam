@@ -10,11 +10,7 @@ case_counter = 0
 
 class Object
   def flip_pancake
-    if self === "+"
-      "-"
-    else
-      "+"
-    end
+    self == '+' ? '-' : '+'
   end
 
   def output(a, c, message)
